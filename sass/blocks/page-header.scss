@@ -1,0 +1,146 @@
+.page-header {
+  padding: 25px 0;
+}
+.page-header__upper {
+  display: flex;
+  align-items: center;
+  width: 245px;
+  justify-content: space-between;
+}
+.page-header__tel-wrapper {
+ height: 30px;
+
+}
+.page-header__tel {
+  font-size: 0;
+  height: 29px;
+  width: 29px;
+  border-radius: 50%;
+  margin-right: 0;
+}
+.page-header__tel-icon {
+  fill: #0f76bb;
+}
+.page-header__lock-icon {
+  fill: #0f76bb;
+}
+.page-header__enter {
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  border: none;
+  font-size: 0;
+  background-color: #ffffff;
+  cursor: pointer;
+  padding: 0;
+}
+.page-header__logo {
+  width: 144px;
+  height: 30px;
+}
+.page-header__tel-time {
+  display:none;
+}
+
+@media (min-width: $tablet-width) {
+  .page-header {
+    padding: 0;
+  }
+  .page-header > .main-block__wrapper {
+    padding: 40px 38px 35px 38px;
+  }
+  .page-header__upper {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  .page-header__tel-wrapper {
+    text-align: right;
+
+  }
+  .page-header__tel {
+    display: block;
+    width: 225px;
+    margin-top: -17px;
+    
+    font-size: 26px;
+    color: #1a2a55;
+    font-weight: bold;
+    text-align: right;
+  }
+  .page-header__tel-time {
+    display:block;
+  }
+  .page-header__tel svg {
+    display: none;
+  }
+  .page-header__enter {
+    width: 225px;
+    margin-left: auto;
+    margin-top: -52px;
+    height: 53px;
+    background-color: #0f76bb;
+    border-radius: 0;
+    color: #ffffff;
+    line-height: 53px;
+    border-radius: 5px;
+    position: relative;
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  .page-header__lock-icon {
+    fill: #ffffff;
+    margin: auto;
+    position: absolute;
+    top: calc(50% - 12px);
+    left: 30px;
+    width: 24px;
+    height: 24px;
+  }
+  .page-header__logo {
+    width: 400px;
+    height: 75px;
+  }
+}
+@media (min-width: $desktop-width) {
+  .page-header > .main-block__wrapper {
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+  .page-header__upper {
+    width: 100%;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  .page-header__logo {
+    width:400px;
+    height:75px;
+  }
+  .page-header__tel {
+    margin-left: auto;
+    width: 255px;    
+    margin-top: -6px;
+    font-size: 26px;
+    color: #1a2a55;
+    font-weight: bold;
+    text-align: right;
+  }
+  .page-header__tel svg {
+    display: none;
+  }
+  .page-header__enter {
+    width: 260px;
+    margin-left: 0;
+    margin-top: 0;
+    height: 53px;
+    background-color: #0f76bb;
+    border-radius: 0;
+    color: #ffffff;
+    line-height: 53px;
+    border-radius: 5px;
+    position: relative;
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 16px;
+  }
+}

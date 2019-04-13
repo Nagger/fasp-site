@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ФАСП</title>    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
+</head>
+<body class="main-block">
+  <div style="display: none">
+    <include src="build/img/sprite.svg"></include>
+  </div>
+  <header class="page-header">
+    <div class="main-block__wrapper">
+      <div class="page-header__upper">
+        <a class="page-header__logo">
+          <picture>
+            <source media="(min-width: 768px)" srcset="img/header-logo-slogan.svg">
+            <img class="page-header__logo" src="img/header-logo.svg">
+          </picture>
+        </a>
+        <a class="page-header__tel" href="tel">+7 (495) 641-24-13
+          <svg class="page-header__tel-icon" width="29" height="29"><use xlink:href="#icon-tel"/></svg>
+        </a>
+        <!-- <button class="page-header__enter">
+          <svg class="page-header__lock-icon" width="29" height="29"><use xlink:href="#icon-lock"/></svg>
+        Личный кабинет</button> -->
+      </div>
+    </div>
+      <nav class="main-nav main-nav--nojs">
+        <div class="main-block__wrapper">
+        <button class="main-nav__toggle" type="button" aria-label="Открыть меню">
+          <span class="main-nav__toggle-part"></span>
+        </button>
+        <div class="main-nav__dropdown">
+          <ul class="main-nav__list site-list site-list--site-nav">
+            <li class="site-list__item">
+              <svg width="11" height="13" class="main-nav__toggler"><use xlink:href="#icon-menu-toggler"></use></svg>
+              <a class="site-list__item-link touch-link hover-link link" href="#">КЛИЕНТАМ</a>
+              <ul class="main-nav__clients">
+                <li>
+                  <a class="clients-list__link link" href="#">МИССИЯ</a>
+                </li>
+                <li>
+                  <a class="clients-list__link link" href="#">ФАСП В АССОЦИАЦИЯХ</a>
+                </li>
+                <li>
+                  <a class="clients-list__link link" href="#">КЛИЕНТЫ И ПАРТНЁРЫ</a>
+                </li>
+                <li>
+                  <a class="clients-list__link link" href="#">ВАКАНСИИ</a>
+                </li>
+                <li>
+                  <a class="clients-list__link link" href="#">КОНТАКТНАЯ ИНФОРМАЦИЯ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="site-list__item">
+              <svg width="11" height="13" class="main-nav__toggler"><use xlink:href="#icon-menu-toggler"></use></svg>
+              <a class="site-list__item-link touch-link hover-link link" href="#">О КОМПАНИИ</a>
+              <ul class="main-nav__about">
+                <li>
+                  <a class="about-list__link link" href="#">МИССИЯ</a>
+                </li>
+                <li>
+                  <a class="about-list__link link" href="#">ФАСП В АССОЦИАЦИЯХ</a>
+                </li>
+                <li>
+                  <a class="about-list__link link" href="#">КЛИЕНТЫ И ПАРТНЁРЫ</a>
+                </li>
+                <li>
+                  <a class="about-list__link link" href="#">ВАКАНСИИ</a>
+                </li>
+                <li>
+                  <a class="about-list__link link" href="#">КОНТАКТНАЯ ИНФОРМАЦИЯ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__item-link link" href="#">НОВОСТИ</a>
+            </li>
+            <li class="site-list__item">
+              <svg width="11" height="13" class="main-nav__toggler"><use xlink:href="#icon-menu-toggler"></use></svg>
+              <a class="site-list__item-link touch-link hover-link link" href="#">ДОЛЖНИКАМ</a>
+              <ul class="main-nav__debt">
+                <li>
+                  <a class="debt-list__link link" href="#">МИССИЯ</a>
+                </li>
+                <li>
+                  <a class="debt-list__link link" href="#">ФАСП В АССОЦИАЦИЯХ</a>
+                </li>
+                <li>
+                  <a class="debt-list__link link" href="#">КЛИЕНТЫ И ПАРТНЁРЫ</a>
+                </li>
+                <li>
+                  <a class="debt-list__link link" href="#">ВАКАНСИИ</a>
+                </li>
+                <li>
+                  <a class="debt-list__link link" href="#">КОНТАКТНАЯ ИНФОРМАЦИЯ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__item-link link lang-switcher" href="indexeng.html">Eng</a>
+            </li>
+          </ul>
+          <div class="main-nav__socials">
+            <a href="#"><svg width="35" height="35"><use xlink:href="#icon-odnokl"></use></svg></a>
+            <a href="#"><svg width="35" height="35"><use xlink:href="#icon-vk"></use></svg></a>
+            <a><svg width="35" height="35"><use xlink:href="#icon-tw"></use></svg></a>
+            <a><svg width="35" height="35"><use xlink:href="#icon-fb"></use></svg></a>
+          </div>
+        </div>
+        </div>
+
+      </nav>
+  </header>
+  <div class="page-type__content-wrapper">
+    
+        <p class="major">
+            У Вас долг? Вместе мы всегда найдём лучшее решение!
+       </p>
+       <h4>Для урегулирования и погашения задолженности:</h4>
+       <ol class="counter">
+        <li>
+            Свяжитесь с оператором нашего контакт-центра по телефону:
+                <ul type="disc">
+                    <li>8 800 775-17-30 (4:00-21:00 мск, звонок бесплатный).</li>
+                </ul>
+            </li>
+        <li>
+                Оператор зафиксирует Вашу готовность урегулировать и оплатить задолженность.
+        </li>
+        <li>
+                Оператор объяснит порядок оплаты и продиктует реквизиты, если они Вам неизвестны.
+        </li>
+        <li>
+            Внесите оплату удобным для Вас способом, где и как это возможно сделать также подскажет наш оператор. <strong>Обязательно сохраните квитанцию!</strong>
+        </li>
+        <li>
+            Отсканируйте или сфотографируйте квитанцию об оплате и отправьте её любым удобным для Вас способом в ФАСП:
+                <ul type="disc">
+                    <li>e-mail: <a href="mailto:info@fasp.ru">info@fasp.ru</a></li>
+                    <li>WhatsApp: +7 (926) 011-13-93</li>
+                    <li>Viber: +7 (926) 011-13-93</li>
+                    <li>факс: +7 (473) 250-24-23</li>
+                </ul>
+        </li>       
+        <li>
+                Вы также можете связаться с нашим оператором по телефону и продиктовать ему реквизиты квитанции об оплате.
+        </li>
+        <li>
+                После проверки прихода денежных средств Ваш платёж будет учтён в нашей системе.
+        </li>
+       </ol>
+       <h4>Наши рекомендации:</h4>
+       <ul class="checked">
+           <li>Если Вы сомневаетесь в правильности информации о факте или размере Вашей задолженности, то проясните ситуацию незамедлительно – позвоните или напишите нам по e-mail, WhatsApp или Viber. </li>
+           <li>Если у Вас «безвыходная ситуация» – позвоните или напишите нам по e-mail, WhatsApp или Viber. Мы предложим для Вас наилучшее решение в сложившейся ситуации.</li>
+           <li>В будущем внимательно читайте текст кредитного договора, условия предоставления товаров и услуг в кредит. Не стесняйтесь уточнять условия и сроки погашения кредитов, оплаты услуг перед подписанием кредитного договора. Обращайте внимание на штрафные санкции при нарушении условий договора.</li>
+           <li>Выполняйте в срок и в полном объеме условия кредитного или иного договора – так Вы формируете свою положительную кредитную историю. </li>
+       </ul>
+    </div>
+      <div class="partners">
+        <div class="partners__promo">
+            <div class="partners__title">
+                Нас рекомендуют
+              </div>
+        </div>          
+        <div class="partners__logo">          
+            <a href="/upload/partners/alfa_letter.jpg"><img src="/img/partners-alfabank.png" /></a>
+            <img src="/img/partners-psb.png" />
+            <img src="/img/partners-vostochniy.png" />                                                                        
+            <img src="/img/partners-binbank.png" />            
+            <a href="/upload/partners/sovcombank_letter.озп"><img src="/img/partners-sovkombank.png" /> </a>           
+            <img src="/img/partners-otp.png" />
+            <img src="/img/partners-vtb.png" />
+            <a href="/upload/partners/renesanscredit_letter.jpg"><img src="/img/partners-renesans.png" /></a>
+            <img src="/img/partners-sbi.png" />
+            <a href="/upload/partners/tinkoff.jpg"><img src="/img/partners-tinkoff.png" /></a>
+            <a href="/upload/partners/homecredit.jpg"><img src="/img/partners-homecredit.png" /></a>                                                                        
+            <a href="/upload/partners/unicredit.jpg"><img src="/img/partners-unicredit.png" /></a>
+            <a href="/upload/partners/uralsib.jpg"><img src="/img/partners-uralsib.png" /></a>                        
+        </div>                                  
+      </div>
+    </section>
+   
+
+
+  <footer class="footer">
+    <div class="main-block__wrapper">
+      <div class="footer__logo">
+        <img src="img/footer-logo-slogan.svg">
+      </div>
+      <div class="footer__wrapper-info">
+        <div class="footer__phone">+7 (495) 641-24-13</div>
+        <div class="footer__address">г. Москва, Дербеневская наб., д. 11, этаж 3, комн. А314</div>
+        <div class="footer__email"><a href="mailto:info@fasp.ru">info@fasp.ru</a></div>
+        <div class="footer__social">Мы в соцсетях: <span><img src="img/social-odnokl.png" width="21" height="22"></span><span><img src="img/social-vk.png" width="21" height="22"></span><span><img src="img/social-tw.png" width="21" height="22"></span><span><img src="img/social-fb.png" width="21" height="22"></span></div>
+        <div class="footer__copyright">&#xA9;&nbsp;All right reserved 2018</div>
+      </div>
+      <div class="footer__wraper-navigation">
+        <div class="footer__navigation-ul">
+          <span class="footer__navigation-title">Клиентам</span>
+          <ul>
+            <li><a href=""></a>Банкам</li>
+            <li><a href=""></a>Телекоммуникационным компаниям</li>
+            <li><a href=""></a>ЖКХ</li>
+            <li><a href=""></a>МФО</li>
+          </ul>
+        </div>
+        <div class="footer__navigation-ul">
+          <span class="footer__navigation-title">Должникам</span>
+          <ul>
+            <li><a href=""></a>О взыскателях</li>
+            <li><a href=""></a>Если у Вас задоженность</li>
+            <li><a href=""></a>Оплатить задолженность</li>
+            <li><a href=""></a>Цессия ФАСП</li>
+          </ul>
+        </div>
+        <div class="footer__navigation-ul">
+          <a href="" class="footer__navigation-title">Компания</a>
+          <ul>
+            <li><a href="">Клиенты и партнеры</a></li>
+            <li><a href="">Вакансии</a></li>
+            <li><a href="">Контактная информация</a></li>
+            <li><a href="">Документы компании</a></li>
+          </ul>
+        </div>
+        <div class="footer__navigation-ul">
+            <a class="footer__navigation-title">Компания</a>
+            <ul>
+              <li><a href="">Клиенты и партнеры</a></li>
+              <li><a href="">Вакансии</a></li>
+              <li><a href="">Контактная информация</a></li>
+              <li><a href="">Документы компании</a></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </footer>
+<!--   <div style="height: 400px; width: 500px;" class="contacts__map"></div> -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/picturefill.min.js" async defer></script>
+  <script src="js/script.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHIFHg91wnChC8qGQtgjFXbhiu6fAV8K8&callback=initMap" async></script>
+</body>
+</html>

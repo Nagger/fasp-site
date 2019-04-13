@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ФАСП</title>
+    <link href="css/style.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body class="main-block">
+  <div style="display: none">
+    <include src="build/img/sprite.svg"></include>
+  </div>
+  <header class="page-header">
+    <div class="main-block__wrapper">
+      <div class="page-header__upper">
+        <a class="page-header__logo">
+          <picture>
+            <source media="(min-width: 768px)" srcset="img/header-logo-slogan.svg">
+            <img class="page-header__logo" src="img/header-logo.svg">
+          </picture>
+        </a>
+        <div class="page-header__tel-wrapper">
+          <a class="page-header__tel" href="tel">8 (800) 775-17-30 
+            <svg class="page-header__tel-icon" width="29" height="29"><use xlink:href="#icon-tel"/></svg>
+          </a>
+          <div class="page-header__tel-time">(7:00-21:00 мск)</div>
+        </div>
+        <!-- <button class="page-header__enter">
+          <svg class="page-header__lock-icon" width="29" height="29"><use xlink:href="#icon-lock"/></svg>
+        Личный кабинет</button> -->
+      </div>
+    </div>
+      <nav class="main-nav main-nav--nojs">
+        <div class="main-block__wrapper">
+        <button class="main-nav__toggle" type="button" aria-label="Открыть меню">
+          <span class="main-nav__toggle-part"></span>
+        </button>
+        <div class="main-nav__dropdown">
+          <ul class="main-nav__list site-list site-list--site-nav">
+            <li class="site-list__item">
+              <svg width="11" height="13" class="main-nav__toggler"><use xlink:href="#icon-menu-toggler"></use></svg>
+              <a class="site-list__item-link touch-link hover-link link" href="#">КЛИЕНТАМ</a>
+              <ul class="main-nav__clients">
+                <li>
+                  <a class="clients-list__link link" href="#">МИССИЯ</a>
+                </li>
+                <li>
+                  <a class="clients-list__link link" href="#">ФАСП В АССОЦИАЦИЯХ</a>
+                </li>
+                <li>
+                  <a class="clients-list__link link" href="#">КЛИЕНТЫ И ПАРТНЁРЫ</a>
+                </li>
+                <li>
+                  <a class="clients-list__link link" href="#">ВАКАНСИИ</a>
+                </li>
+                <li>
+                  <a class="clients-list__link link" href="#">КОНТАКТНАЯ ИНФОРМАЦИЯ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="site-list__item">
+              <svg width="11" height="13" class="main-nav__toggler"><use xlink:href="#icon-menu-toggler"></use></svg>
+              <a class="site-list__item-link touch-link hover-link link" href="#">О КОМПАНИИ</a>
+              <ul class="main-nav__about">
+                <li>
+                  <a class="about-list__link link" href="#">МИССИЯ</a>
+                </li>
+                <li>
+                  <a class="about-list__link link" href="#">ФАСП В АССОЦИАЦИЯХ</a>
+                </li>
+                <li>
+                  <a class="about-list__link link" href="#">КЛИЕНТЫ И ПАРТНЁРЫ</a>
+                </li>
+                <li>
+                  <a class="about-list__link link" href="#">ВАКАНСИИ</a>
+                </li>
+                <li>
+                  <a class="about-list__link link" href="#">КОНТАКТНАЯ ИНФОРМАЦИЯ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__item-link link" href="#">НОВОСТИ</a>
+            </li>
+            <li class="site-list__item">
+              <svg width="11" height="13" class="main-nav__toggler"><use xlink:href="#icon-menu-toggler"></use></svg>
+              <a class="site-list__item-link touch-link hover-link link" href="#">ДОЛЖНИКАМ</a>
+              <ul class="main-nav__debt">
+                <li>
+                  <a class="debt-list__link link" href="#">МИССИЯ</a>
+                </li>
+                <li>
+                  <a class="debt-list__link link" href="#">ФАСП В АССОЦИАЦИЯХ</a>
+                </li>
+                <li>
+                  <a class="debt-list__link link" href="#">КЛИЕНТЫ И ПАРТНЁРЫ</a>
+                </li>
+                <li>
+                  <a class="debt-list__link link" href="#">ВАКАНСИИ</a>
+                </li>
+                <li>
+                  <a class="debt-list__link link" href="#">КОНТАКТНАЯ ИНФОРМАЦИЯ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__item-link link lang-switcher" href="indexeng.html">Eng</a>
+            </li>
+          </ul>
+          <div class="main-nav__socials">
+            <a href="#"><svg width="35" height="35"><use xlink:href="#icon-odnokl"></use></svg></a>
+            <a href="#"><svg width="35" height="35"><use xlink:href="#icon-vk"></use></svg></a>
+            <a><svg width="35" height="35"><use xlink:href="#icon-tw"></use></svg></a>
+            <a><svg width="35" height="35"><use xlink:href="#icon-fb"></use></svg></a>
+          </div>
+        </div>
+        </div>
+
+      </nav>
+  </header>
+  <main class="page_main">
+    <section class="slider">
+      <div class="main-block__wrapper1">
+        <div class="slider__title">
+          <h1 class="slider_title-header">Помогаем вернуть задолженность</h1>
+          <p class="slider_title-body">законно и эффективно</p>
+        </div>
+      </div>
+      <div id="slider__carousel-indicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#slider__carousel-indicators" data-slide-to="0" class="active"></li>
+          <li data-target="#slider__carousel-indicators" data-slide-to="1"></li>
+          <li data-target="#slider__carousel-indicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-color: #0f76bb;">            
+            <img class="d-block slider__img" src="img/slide-pict-1.jpg"  alt="First slide">            
+            <div class="carousel-caption d-none d-md-block">
+              <h5>НАС<br>РЕКОМЕНДУЮТ</h5>
+              <p>ведущие компании<br> России</p>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-color:#0f76bb; ">
+            <img class="d-block slider__img" src="img/slide-pict-2.jpg"  alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Помогаем эффективно</h5>
+              <p><span>РЕСТРУКТУРИРОВАТЬ</span><span>ВАШ ДОЛГ</span></p>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-color: #1a2a55;">
+            <img class="d-block slider__img" src="img/slide-pict-3.jpg"  alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>ПОМОГАЕМ<br> ВЕРНУТЬ<br> ЗАДОЛЖЕННОСТЬ</h5>
+              <p>законно и эффективно</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#slider__carousel-indicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#slider__carousel-indicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <!-- <section class="information">
+      <div class="main-block__wrapper">
+        <div class="information__wrapper">
+          <div class="information__know">
+            <p class="information__know-title">Узнать свою<br/>задолженность</p>
+            <button class="information__know-btn button">
+              <svg width="31" height="31"><use xlink:href="#icon-exclam"></use></svg>
+              <span class="information__know-btn--mobile-text">Узнать свою<br> задолженность</span>
+              <span class="information__know-btn--tablet-text">Проверить</span>
+            </button>
+          </div>
+          <div class="information__pay">
+            <p class="information__pay-title">Оплатить долг<br/>без комиссии онлайн</p>
+            <button class="information__pay-btn button">
+              <svg width="28" height="24"><use xlink:href="#icon-wallet"></use></svg>
+              <span class="information__pay-btn--mobile-text">Оплатить долг<br> без комиссии онлайн</span>
+              <span class="information__pay-btn--tablet-text">Оплатить</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section class="news">
+      <div class="main-block__wrapper">
+        <div class="news__title">
+          Новости
+        </div>
+        <div class="news__items">
+          <div class="news__item">
+            <div class="news__item-date">
+              16.01.2017
+            </div>
+            <div class="news__item-announce">
+              Опубликован реестр юридических лиц, осущесвляющих деятельность
+              по возврату просроченной задолженности.
+            </div>
+            <div class="news__item-body">
+              На официальном сайте ФССП в разделе появился раздел, содержаний сведения о государственном реестре юридических лиц, осуществляющих деятельность по возврату просроченной задолженности в качестве основного вида деятельности.
+            </div>
+          </div>
+          <div class="news__item">
+            <div class="news__item-date">
+              16.01.2017
+            </div>
+            <div class="news__item-announce">
+              Поданы документы на регистрацию в Реестре юр. лиц
+            </div>
+            <div class="news__item-body">
+              Компания ФАСП осуществила подачу комплекта документов в ФССП для регистрации в реестре юридических лиц, осуществляющих деятельность по возврату просроченной задолженности.
+            </div>
+          </div>
+          <div class="news__item">
+            <div class="news__item-date">
+              16.01.2017
+            </div>
+            <div class="news__item-announce">
+              Группа Компаний ФАСП — профессиональная, динамично развивающаяся компания. 9 августа 9 августа
+            </div>
+            <div class="news__item-body">
+              руппа Компаний ФАСП — профессиональная, динамично развивающаяся компания. 9 августа 2004 года ЗАО «ФАСП» было зарегистрировано как первое коллекторское агентство в России. Компания фактически стояла у истоков формирования отечественного рынка формирования отечественного рынка
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="services-cooperation">
+      
+      <section class="services">
+        <div class="main-block__wrapper services__wrapper">
+          <div class="services__title">
+            Услуги клиентам
+          </div>
+          <ul class="services__items">
+            <li class="services__item">
+              <svg class="services__ico" >
+                <use xlink:href="#icon-service-bank"></use>
+              </svg>
+              <img src="img/separator.png" />
+              <div class="services__text">
+                возврат долгов по банковским<br/>кредитам
+              </div>
+            </li>
+            <li class="services__item">
+              <svg class="services__ico" >
+                  <use xlink:href="#icon-service-kran"></use>
+              </svg>
+              <img src="img/separator.png" />
+              <div class="services__text">
+                возврат долгов по коммунальным<br />услугам
+              </div>
+            </li>
+            <li class="services__item">
+                <svg class="services__ico" >
+                    <use xlink:href="#icon-service-globe"></use>
+                </svg>
+                <img src="img/separator.png" />
+                <div class="services__text">
+                  возврат задолженности<br/>по<br/>телекоммуникационным услугам
+                </div>
+            </li>
+            <li class="services__item">
+                <svg class="services__ico" >
+                    <use xlink:href="#icon-service-hand"></use>
+                </svg>
+                <img src="img/separator.png" />
+                <div class="services__text">
+                  возврат долгов микрофинансовым организациям
+                </div>
+            </li>
+          </ul>
+          <a class="services__detail-btn button">                        
+              <span class="services__detail-btn-text">Подробнее об услугах</span>
+          </a>  
+          </div>    
+      </section>
+      <section class="cooperation">
+        <div class="main-block__wrapper cooperation__wrapper">
+          <div class="cooperation__wrapper">
+            <div class="cooperation__title">
+              Сотрудничество<br/>с ФАСП
+            </div>
+            <div class="cooperation__text">
+              Многолетний практический опыт взыскания просроченной задолженности
+              Современные технологии и автоматизация
+              Гибкая операционная модель
+              Лицензия ФСТЭК России на деятельность по технической защите конфиденциальной информации
+              Деятельность ФАСП осуществляется в полном соответствии с законодательством РФ 
+              
+            </div>
+            <a class="cooperation__detail-btn button" href="44">                        
+                <span class="cooperation__detail-btn-text">Узнать больше</span>
+            </a>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section class="questions">
+      <div class="main-block__wrapper">
+        <div class="questions__title">
+          Вопросы и ответы
+        </div>
+        <ul class="questions__items">
+          <li class="questions__item"><a href="">Кто такие взыскатели</a></li>
+          <li class="questions__item"><a href="">Как узнать сумму долга?</a></li>
+          <li class="questions__item"><a href="">Что такое переуступка долга?</a></li>
+          <li class="questions__item"><a href="">Кто такие взыскатели?</a></li>
+          <li class="questions__item"><a href="">Как узнать сумму долга?</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="main-block__wrapper">
+      <div class="footer__logo">
+        <img src="img/footer-logo-slogan.svg">
+      </div>
+      <div class="footer__wrapper-info">
+        <div class="footer__phone">+7 (495) 641-24-13</div>
+        <div class="footer__address">г. Москва, Дербеневская наб., д. 11, этаж 3, комн. А314</div>
+        <div class="footer__email"><a href="mailto:info@fasp.ru">info@fasp.ru</a></div>
+        <div class="footer__social">Мы в соцсетях: <span><img src="img/social-odnokl.png" width="21" height="22"></span><span><img src="img/social-vk.png" width="21" height="22"></span><span><img src="img/social-tw.png" width="21" height="22"></span><span><img src="img/social-fb.png" width="21" height="22"></span></div>
+        <div class="footer__copyright">&#xA9;&nbsp;All right reserved 2018</div>
+      </div>
+      <div class="footer__wraper-navigation">
+        <div class="footer__navigation-ul">
+          <span class="footer__navigation-title">Клиентам</span>
+          <ul>
+            <li><a href=""></a>Банкам</li>
+            <li><a href=""></a>Телекоммуникационным компаниям</li>
+            <li><a href=""></a>ЖКХ</li>
+            <li><a href=""></a>МФО</li>
+          </ul>
+        </div>
+        <div class="footer__navigation-ul">
+          <span class="footer__navigation-title">Должникам</span>
+          <ul>
+            <li><a href=""></a>О взыскателях</li>
+            <li><a href=""></a>Если у Вас задоженность</li>
+            <li><a href=""></a>Оплатить задолженность</li>
+            <li><a href=""></a>Цессия ФАСП</li>
+          </ul>
+        </div>
+        <div class="footer__navigation-ul">
+          <a href="" class="footer__navigation-title">Компания</a>
+          <ul>
+            <li><a href="">Клиенты и партнеры</a></li>
+            <li><a href="">Вакансии</a></li>
+            <li><a href="">Контактная информация</a></li>
+            <li><a href="">Документы компании</a></li>
+          </ul>
+        </div>
+        <div class="footer__navigation-ul">
+            <a class="footer__navigation-title">Компания</a>
+            <ul>
+              <li><a href="">Клиенты и партнеры</a></li>
+              <li><a href="">Вакансии</a></li>
+              <li><a href="">Контактная информация</a></li>
+              <li><a href="">Документы компании</a></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </footer>
+<!--   <div style="height: 400px; width: 500px;" class="contacts__map"></div> -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/picturefill.min.js" async defer></script>
+  <script src="js/script.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHIFHg91wnChC8qGQtgjFXbhiu6fAV8K8&callback=initMap" async></script>
+</body>
+</html>

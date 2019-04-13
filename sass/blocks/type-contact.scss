@@ -1,0 +1,95 @@
+.page-type__content-wrapper .partners__logo {
+    text-align:center;
+}
+.page-type__info-wrapper {
+    border: 2px solid #e2dede;        
+    width: 260px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.page_type__info-phone-wrapper {
+    display:flex;
+    padding: 35px 20px 32px 25px;         
+    
+    border-bottom: 2px solid #e2dede; 
+}
+.page_type__info-phone-ico {
+    width:47px;
+    height:47px;
+}
+.page_type__info-phone-text-wrapper {
+    margin-top:2px;
+    margin-left:10px;        
+}
+.page_type__info-phone-title {
+    font-size:20px;
+    font-weight:bold;
+    color: $firm-dark-blue;
+    margin-bottom: 4px;
+}
+.page_type__info-phone-text {
+    font-size:20px;
+    font-weight:bold;
+    color: $firm-dark-blue;
+}
+.page_type__info-phone-comment {
+    font-size:14px;
+    line-height: 18px;
+}
+.page_type__info-email-wrapper {
+    display:flex;
+    padding: 24px 24px 12px;        
+}
+.page_type__info-email-ico {
+    width:40px;
+    height:40px;
+}
+.page_type__info-email-text {
+    margin:12px 15px;
+    & > a {
+        text-decoration: underline;
+    }
+}
+.page_type__info-viber-wrapper {
+    display:flex;
+    padding: 4px 24px 12px; 
+    & > a {
+        text-decoration: none;
+        color: #464646;
+    }
+}
+.page_type__info-viber-text-wrapper {
+    margin-left: 18px;
+    margin-top: -5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.page_type__info-viber-ico {
+    width: 36px;
+    height:36px;
+}
+.page_type__info-watsapp-wrapper {
+    display:flex;
+    padding: 11px 28px 12px; 
+    margin-bottom: 20px;
+    & > a {
+        text-decoration: none;
+        color: #464646;
+    }
+}
+.page_type__info-watsapp-ico {
+    width:32px;
+    height:32px;
+}
+.page_type__info-watsapp-text-wrapper {
+    margin-left: 17px;
+    margin-top: -5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+@media (min-width: $desktop-width) {
+    .page-type__info-wrapper  {
+        display:block;
+    }
+   
+}

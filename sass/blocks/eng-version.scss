@@ -1,0 +1,13 @@
+.page-type__content-wrapper.eng-version {
+  border-top: none;
+}
+.page-type__content-wrapper.eng-version ul li {
+  &::before {
+    margin-left: -19px;
+  }
+}
+@media (min-width: $tablet-width) {
+  .page-type__content-wrapper.eng-version ul li {
+    text-align: left;
+  }
+}

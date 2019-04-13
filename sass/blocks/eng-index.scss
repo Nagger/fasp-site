@@ -1,0 +1,101 @@
+.eng-main-content__title {
+    font-size: 28px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #1a2a55;
+    margin-bottom: 22px;
+}
+.slider-eng__title {
+    padding-top: 246px;
+}
+.slider-eng_title-header {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0px;
+  }
+.slider-eng_title-body {
+    font-size: 19px;    
+    letter-spacing: 0.05em;
+    margin-bottom:1px;
+}
+.footer-eng__logo {
+    background-image: url(/img/footer-en-logo.svg);    
+    width: 166px;
+    height: 46px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.footer-eng__wrapper-info {
+    margin-top:10px;
+    font-size:14px;
+}
+@media (min-width: $tablet-width) {
+    
+    .slider-eng_title-header {
+        font-size:60px;
+    }
+
+    p.slider-eng_title-body {
+        font-size:33px;
+        line-height: 1.3em;
+        width: 220px;
+        text-transform: uppercase;
+    }
+    .slider-eng_title-body--since { 
+        font-weight: normal;
+        font-size: 32px;
+        margin-top: 15px;
+        text-transform: none;
+        display: block;
+        font-family: "Arial", sans-serif;
+    }
+    .slider-eng_title-body--since-year {
+        font-size: 30px;
+    }
+    .title-header-first {
+        font-size:40px;
+    }
+    .slider-eng__title {
+        width: 300px;
+        padding-top: 54px;
+    }
+    .eng-main-content__title {
+        font-size:34px;
+        margin-top: 50px;
+    }
+    .footer-eng__logo {
+        background-image: url(/img/footer-en-logo-slogan.svg);
+        width: 310px;
+        height: 80px;
+    }
+    .footer__copyright {
+        width: 200px;
+        text-align: left;
+    }
+}
+@media (min-width: $desktop-width) {
+    p.slider-eng_title-body {
+        font-weight: bold;
+        font-size: 37px;
+        width: 554px;
+        line-height: 1.3em;        
+    }
+    .footer-eng__logo {     
+        width: 223px;
+        height: 67px;
+    }
+    .footer__address {
+        width:500px;
+    }
+    .footer-other__wrapper {
+        display:flex;
+        width: 911px;
+    }
+    .footer-address__wrapper {
+        width: 563px;
+    }
+    .footer__social {
+        width:164px;
+    }
+}

@@ -1,0 +1,112 @@
+@mixin label {
+  font-size: 17px;
+  line-height: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+
+@mixin lists-styles {
+  background-color: #ffffff;
+  padding: 0;
+  list-style: none;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@mixin mobile-placeholder {
+  &::-webkit-input-placeholder {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+    color: #d2d2d2;
+    opacity: 1;
+  }
+
+  &:-moz-placeholder {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+    color: #d2d2d2;
+    opacity: 1;
+  }
+
+  &::-moz-placeholder {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+    color: #d2d2d2;
+    opacity: 1;
+  }
+
+  &:-ms-input-placeholder {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 17px;
+    line-height: 18px;
+    color: #d2d2d2;
+    opacity: 1;
+  }
+}
+
+@mixin tablet-placeholder {
+  &::-webkit-input-placeholder {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 19px;
+    line-height: 18px;
+    color: #d2d2d2;
+  }
+
+  &:-moz-placeholder {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 19px;
+    line-height: 18px;
+    color: #d2d2d2;
+  }
+
+  &::-moz-placeholder {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 19px;
+    line-height: 18px;
+    color: #d2d2d2;
+  }
+
+  &:-ms-input-placeholder {
+    font-family: "Open Sans", "Arial", sans-serif;
+    font-size: 19px;
+    line-height: 18px;
+    color: #d2d2d2;
+  }
+}
+
+@mixin mobile-inputs {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 17px;
+  line-height: 18px;
+  color: #444444;
+}
+
+@mixin tablet-inputs {
+  font-family: "Open Sans", "Arial", sans-serif;
+  font-size: 19px;
+  line-height: 18px;
+  color: #444444;
+}
+
+@mixin visuallyhidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+@mixin benefits-icon {
+  fill: $beaty-color;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

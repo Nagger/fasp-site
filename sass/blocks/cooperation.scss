@@ -1,0 +1,89 @@
+.cooperation {
+    background-image: url('/img/cooperation-bg.jpg');    
+    padding:37px 10px 20px;
+    margin-bottom:65px;
+    background-position-x: -279px;
+    background-position-y: -259px;
+}
+.cooperation__title {
+    font-size: 33px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    
+    
+    line-height: 1em;
+    margin-bottom:20px;
+}
+.cooperation__text {
+    color: white;
+    margin-bottom:26px;
+}
+.cooperation__detail-btn {
+    display: flex;
+    width: 270px;
+    height: 47px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: normal;
+    text-transform: lowercase;
+    color: #ffffff;
+    border-radius: 3px;      
+    background-color: #0f76bb;
+  &:hover {
+    background-color: #1a2a55;
+    color: #ffffff;
+  }
+}
+.cooperation__detail-btn-text {
+    color: #ffffff;
+    padding-top: 12px;
+}
+@media (min-width: $tablet-width) {
+    .cooperation {
+        background-image: url('/img/cooperation-bg-big.jpg');
+        background-position: center -278px;
+        background-size: 1280px;
+        background-repeat: no-repeat;
+        padding-bottom:53px;
+    }
+    .cooperation__detail-btn {
+        width: 180px;
+    }
+}
+@media (min-width: $desktop-width) {
+    .cooperation {
+        width:50%;
+        background-size: 990px;
+        background-position: -90px -190px;
+        margin-bottom:0;
+        padding-top:57px;
+        position: relative;
+    }
+    .cooperation__wrapper {
+        width: 480px;        
+        padding-left: 98px;
+        margin: 0 auto 0 0; 
+    }
+    div >.cooperation__wrapper::after { 
+        content:'';
+        position: absolute;
+        top:-57px;
+        left: -10px;
+        width: 0;
+        height: 0;
+        border-top: 433px solid #ebebeb; 
+        border-right: 88px solid transparent;	
+    }
+    .cooperation__title {
+        font-size: 36px;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: white;                
+        line-height: 1em;
+        margin-bottom:6px;
+    }
+    .cooperation__text {     
+        margin-bottom:9px;
+    }
+}

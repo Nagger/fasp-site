@@ -1,0 +1,114 @@
+.footer {
+    background-color: #1a2a55;
+    padding-top:30px;
+    padding-bottom:30px;
+    margin-top: 40px;
+    color: #ffffff;
+}
+.footer__logo {
+    margin-bottom:12px;    
+}
+.footer__logo {
+    background-image: url(/img/footer-logo.svg);
+    width: 166px;
+    height: 46px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.footer__email {
+    margin-bottom:16px;
+}
+.footer__email a {
+    color: #ffffff;  
+    text-decoration: underline;  
+}
+.footer__social {
+    font-size: 13px;
+    margin-bottom: 11px;
+}
+.footer__social span {
+    margin-left: 2px;
+}
+.footer__wraper-navigation {
+    display:none;
+}
+.footer__copyright {
+    width: $mobile-width;    
+    font-size: 13px;    
+    text-align: left;
+}
+@media (min-width: $tablet-width) {
+    .footer {     
+        padding-top:42px;
+        padding-bottom:30px;  
+             
+    }
+    .footer__logo img {
+        width:225px; 
+        height:65px;
+    }
+    .footer__logo {
+        background-image: url(/img/footer-logo-slogan.svg);
+        width: 226px;
+        height: 65px;
+        background-size: 100%;
+    }
+    .footer .main-block__wrapper {
+        display:flex; 
+    }
+    .footer__wrapper-info {
+        margin-left: 125px; 
+    }
+    .footer__phone {
+        font-size:14px;
+        margin-top:-7px;
+    }
+    .footer__address {
+        font-size: 13px;
+    }
+    .footer__email {
+        margin-bottom: 10px;
+        font-size: 13px;
+    }
+    .footer__copyright {
+        width: $tablet-width; 
+        text-align: right;       
+    }
+
+}
+@media (min-width: $desktop-width) {
+    .footer__wrapper-info {
+        margin-left: 70px; 
+        width: 205px;
+    }
+    .footer__wraper-navigation {
+        display:flex;
+        margin-left: 56px;
+    }
+    .footer__navigation-ul {
+        width:195px;
+        padding: 0 21px;
+    }
+
+    .footer__navigation-ul > ul {
+        list-style: none;
+        margin:0;
+        padding:0;
+        font-size: 14px;        
+    }
+    .footer__navigation-ul > ul  a {
+        color: #ffffff;
+    }
+    .footer__navigation-ul:nth-child(n+4) {
+        display: none;
+    }
+    .footer__navigation-title {
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 13px;
+        color:#318dcb;
+    }
+    .footer__copyright {
+        width: $desktop-width;        
+    }
+}

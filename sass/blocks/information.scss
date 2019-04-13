@@ -1,0 +1,122 @@
+.information {
+  margin-bottom: 32px;
+}
+.information__know-title {
+	display: none;
+}
+.information__know-btn--tablet-text {
+	display: none;
+}
+.information__pay-title {
+	display: none;
+}
+.information__pay-btn--tablet-text {
+	display: none;
+}
+.information__pay-btn--mobile-text {
+  text-align: left;
+  letter-spacing: .1em;
+}
+.information__know-btn--mobile-text {
+  text-align: left;
+  letter-spacing: .1em;
+}
+.information__know-btn,
+.information__pay-btn {
+  display: flex;
+	width: 288px;
+	height: 67px;
+	align-items: center;
+	font-size: 15px;
+	font-weight: bold;
+  color: #ffffff;
+  border-radius: 3px;
+}
+.information__know-btn {
+  margin-bottom: 17px;
+	background-color: #1a2a55;
+  &:hover {
+    background-color: #0f76bb;
+  }
+}
+.information__know-btn svg {
+  stroke: #ffffff;
+  fill: #ffffff;
+  margin-left: 37px;
+  margin-right: 26px;
+}
+.information__pay-btn {
+  background-color: #0f76bb;
+  &:hover {
+    background-color: #1a2a55;
+  }
+}
+.information__pay-btn svg {
+  fill: #ffffff;
+  margin-left: 30px;
+  margin-right: 25px;
+}
+
+@media (min-width: $tablet-width) {
+  .information__wrapper {
+    display:flex;
+    margin-bottom: 54px;
+  }
+  .information__pay {
+    margin-left:28px;
+  }
+  .information__pay-btn--mobile-text {
+    display: none;
+  }
+  .information__know-btn--mobile-text {
+    display: none;
+  }
+  .information__know-title {
+    display: block;
+    color: #1a2a55;
+    font-size:23px;
+  }
+  .information__know-btn--tablet-text {
+    display: block;
+    
+  }
+  .information__pay-title {
+    display: block;
+    color: #1a2a55;
+    font-size:23px;
+    
+  }
+  .information__pay-btn--tablet-text {
+    display: block;
+    
+  }
+  .information__know,.information__pay {
+    width: 50%;
+  }
+  .information__know-btn,
+  .information__pay-btn {
+    
+    width: 253px;
+    height: 53px;
+    align-items: center;
+    font-size: 17px;
+  }
+  .information__know-btn svg {
+    margin-left: 50px;
+    margin-right: 26px;
+  }
+  .information__pay-btn svg {    
+    margin-left: 63px;
+    margin-right: 25px;
+  }
+
+}
+@media (min-width: $desktop-width) {
+  .information__know,.information__pay {
+    display:flex;
+  }
+  .information__know-btn,
+  .information__pay-btn {
+    margin-left:70px;
+  }
+}

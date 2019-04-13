@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ФАСП</title>
+    <link href="css/style.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body class="main-block">
+  <div style="display: none">
+    <include src="build/img/sprite.svg"></include>
+  </div>
+  <header class="page-header">
+    <div class="main-block__wrapper">
+      <div class="page-header__upper">
+        <a class="page-header__logo">
+          <picture>
+            <source media="(min-width: 768px)" srcset="img/header-en-logo-slogan.svg">
+            <img class="page-header__logo" src="img/header-en-logo.svg">
+          </picture>
+        </a>
+        <div class="page-header__tel-wrapper">
+          <a class="page-header__tel" href="tel">8 (800) 775-17-30 
+            <svg class="page-header__tel-icon" width="29" height="29"><use xlink:href="#icon-tel"/></svg>
+          </a>
+          <div class="page-header__tel-time">(7:00-21:00 мск)</div>
+        </div>
+      </div>
+    </div>
+      <nav class="main-nav main-nav--nojs">
+        <div class="main-block__wrapper">
+        <button class="main-nav__toggle" type="button" aria-label="Открыть меню">
+          <span class="main-nav__toggle-part"></span>
+        </button>
+        <div class="main-nav__dropdown">
+          <ul class="main-nav__list site-list site-list--site-nav">
+            <li class="site-list__item">
+              <svg width="11" height="13" class="main-nav__toggler"><use xlink:href="#icon-menu-toggler"></use></svg>
+              <a class="site-list__item-link touch-link hover-link link" href="#">КЛИЕНТАМ</a>
+              <ul class="main-nav__clients">
+                <li>
+                  <a class="clients-list__link link" href="#">МИССИЯ</a>
+                </li>
+                <li>
+                  <a class="clients-list__link link" href="#">ФАСП В АССОЦИАЦИЯХ</a>
+                </li>
+                <li>
+                  <a class="clients-list__link link" href="#">КЛИЕНТЫ И ПАРТНЁРЫ</a>
+                </li>
+                <li>
+                  <a class="clients-list__link link" href="#">ВАКАНСИИ</a>
+                </li>
+                <li>
+                  <a class="clients-list__link link" href="#">КОНТАКТНАЯ ИНФОРМАЦИЯ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="site-list__item">
+              <svg width="11" height="13" class="main-nav__toggler"><use xlink:href="#icon-menu-toggler"></use></svg>
+              <a class="site-list__item-link touch-link hover-link link" href="#">О КОМПАНИИ</a>
+              <ul class="main-nav__about">
+                <li>
+                  <a class="about-list__link link" href="#">МИССИЯ</a>
+                </li>
+                <li>
+                  <a class="about-list__link link" href="#">ФАСП В АССОЦИАЦИЯХ</a>
+                </li>
+                <li>
+                  <a class="about-list__link link" href="#">КЛИЕНТЫ И ПАРТНЁРЫ</a>
+                </li>
+                <li>
+                  <a class="about-list__link link" href="#">ВАКАНСИИ</a>
+                </li>
+                <li>
+                  <a class="about-list__link link" href="#">КОНТАКТНАЯ ИНФОРМАЦИЯ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__item-link link" href="#">НОВОСТИ</a>
+            </li>
+            <li class="site-list__item">
+              <svg width="11" height="13" class="main-nav__toggler"><use xlink:href="#icon-menu-toggler"></use></svg>
+              <a class="site-list__item-link touch-link hover-link link" href="#">ДОЛЖНИКАМ</a>
+              <ul class="main-nav__debt">
+                <li>
+                  <a class="debt-list__link link" href="#">МИССИЯ</a>
+                </li>
+                <li>
+                  <a class="debt-list__link link" href="#">ФАСП В АССОЦИАЦИЯХ</a>
+                </li>
+                <li>
+                  <a class="debt-list__link link" href="#">КЛИЕНТЫ И ПАРТНЁРЫ</a>
+                </li>
+                <li>
+                  <a class="debt-list__link link" href="#">ВАКАНСИИ</a>
+                </li>
+                <li>
+                  <a class="debt-list__link link" href="#">КОНТАКТНАЯ ИНФОРМАЦИЯ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__item-link link lang-switcher" href="indexeng.html">Eng</a>
+            </li>
+          </ul>
+          <div class="main-nav__socials">
+            <a href="#"><svg width="35" height="35"><use xlink:href="#icon-odnokl"></use></svg></a>
+            <a href="#"><svg width="35" height="35"><use xlink:href="#icon-vk"></use></svg></a>
+            <a><svg width="35" height="35"><use xlink:href="#icon-tw"></use></svg></a>
+            <a><svg width="35" height="35"><use xlink:href="#icon-fb"></use></svg></a>
+          </div>
+        </div>
+        </div>
+
+      </nav>
+  </header>
+  <main class="page_main">
+    <section class="slider slider-eng">
+      <div class="main-block__wrapper1">
+        <div class="slider__title slider-eng__title">
+          <p class="slider-eng_title-body">We help you to effectively</p>
+          <h1 class="slider-eng_title-header"><span class="title-header-first">Restructure</span><br/>You Debt</h1>          
+        </div>
+      </div>
+      <div id="slider__carousel-indicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#slider__carousel-indicators" data-slide-to="0" class="active"></li>
+          <li data-target="#slider__carousel-indicators" data-slide-to="1"></li>
+          <li data-target="#slider__carousel-indicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active" style="background-color: #0f76bb;">            
+            <img class="d-block slider__img" src="img/slide-pict-1.jpg"  alt="First slide">            
+            <div class="carousel-caption d-none d-md-block">
+              <h5>НАС<br>РЕКОМЕНДУЮТ</h5>
+              <p>ведущие компании<br> России</p>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-color:#0f76bb; ">
+            <img class="d-block slider__img" src="img/slide-pict-2.jpg"  alt="Second slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Помогаем эффективно</h5>
+              <p><span>РЕСТРУКТУРИРОВАТЬ</span><span>ВАШ ДОЛГ</span></p>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-color: #1a2a55;">
+            <img class="d-block slider__img" src="img/slide-pict-3.jpg"  alt="Third slide">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>ПОМОГАЕМ<br> ВЕРНУТЬ<br> ЗАДОЛЖЕННОСТЬ</h5>
+              <p>законно и эффективно</p>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#slider__carousel-indicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#slider__carousel-indicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </section>
+    <section class="eng-main-content">
+      <div class="main-block__wrapper">
+        <div class="eng-main-content__title">
+            Financial Debt Collection Agency
+        </div>
+        <p>FASP, incorporated in 2004, is the first professional collection agency in Russia. FASP is an abbreviation which stands for Finansovoye Agentstvo po Sboru Platezhey (Financial Debt Collection Agency). Launched by experienced and enthusiastic entrepreneurs in the sphere of banking, finance and security, FASP is the foundation for a whole collection industry in Russia.</p>
+        <p>Three years after launch FASP initiated National Association of Professional Collection Agencies (NAPCA) to succeed in building a civilized collection industry in Russia as a whole. </p>
+        <p>Being pioneers of the industry FASP and its founders enjoy a strong reputation of trustworthy, honest, highly-skilled partners. If you need assistance in managing delinquent payments of your customers, do not hesitate to contact FASP to get such help in a fast and professional way.</p>
+      </div>
+    </section>
+ 
+  </main>
+  <footer class="footer">
+    <div class="main-block__wrapper">
+      <div class="footer-eng__logo">        
+      </div>
+      <div class="footer__wrapper-info footer-eng__wrapper-info">
+        <div class="footer__phone">+7 (495) 641-24-13</div>
+        <div class="footer-other__wrapper">
+          <div class="footer-address__wrapper">
+            <div class="footer__address">Office A314, 11 Derbenevskaya Naberezhnaya, Moscow, 115114, Russian Federation</div>
+            <div class="footer__email"><a href="mailto:info@fasp.ru">info@fasp.ru</a></div>
+          </div>
+          <div class="footer__social">
+            <span><a href="viber://chat?number=+79260112493"><img src="/local/templates/.default/img/social-viber.png" width="21" height="22"></a></span>
+            <span><a href="whatsapp://send?phone=+79260112493"><img src="/local/templates/.default/img/social-watsapp.png" width="21" height="22"></a></span>
+          </div>
+          <div class="footer__copyright">&#xA9;&nbsp;All right reserved 2018</div>
+        </div>
+      </div>
+    </div>
+    
+  </footer>
+<!--   <div style="height: 400px; width: 500px;" class="contacts__map"></div> -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/picturefill.min.js" async defer></script>
+  <script src="js/script.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHIFHg91wnChC8qGQtgjFXbhiu6fAV8K8&callback=initMap" async></script>
+</body>
+</html>

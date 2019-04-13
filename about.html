@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ФАСП</title>    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="css/style.min.css" rel="stylesheet">
+</head>
+<body class="main-block">
+  <div style="display: none">
+    <include src="build/img/sprite.svg"></include>
+  </div>
+  <header class="page-header">
+    <div class="main-block__wrapper">
+      <div class="page-header__upper">
+        <a class="page-header__logo">
+          <picture>
+            <source media="(min-width: 768px)" srcset="img/header-logo-slogan.svg">
+            <img class="page-header__logo" src="img/header-logo.svg">
+          </picture>
+        </a>
+        <a class="page-header__tel" href="tel">+7 (495) 641-24-13
+          <svg class="page-header__tel-icon" width="29" height="29"><use xlink:href="#icon-tel"/></svg>
+        </a>
+        <!-- <button class="page-header__enter">
+          <svg class="page-header__lock-icon" width="29" height="29"><use xlink:href="#icon-lock"/></svg>
+        Личный кабинет</button> -->
+      </div>
+    </div>
+      <nav class="main-nav main-nav--nojs">
+        <div class="main-block__wrapper">
+        <button class="main-nav__toggle" type="button" aria-label="Открыть меню">
+          <span class="main-nav__toggle-part"></span>
+        </button>
+        <div class="main-nav__dropdown">
+          <ul class="main-nav__list site-list site-list--site-nav">
+            <li class="site-list__item">
+              <svg width="11" height="13" class="main-nav__toggler"><use xlink:href="#icon-menu-toggler"></use></svg>
+              <a class="site-list__item-link touch-link hover-link link" href="#">КЛИЕНТАМ</a>
+              <ul class="main-nav__clients">
+                <li>
+                  <a class="clients-list__link link" href="#">МИССИЯ</a>
+                </li>
+                <li>
+                  <a class="clients-list__link link" href="#">ФАСП В АССОЦИАЦИЯХ</a>
+                </li>
+                <li>
+                  <a class="clients-list__link link" href="#">КЛИЕНТЫ И ПАРТНЁРЫ</a>
+                </li>
+                <li>
+                  <a class="clients-list__link link" href="#">ВАКАНСИИ</a>
+                </li>
+                <li>
+                  <a class="clients-list__link link" href="#">КОНТАКТНАЯ ИНФОРМАЦИЯ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="site-list__item">
+              <svg width="11" height="13" class="main-nav__toggler"><use xlink:href="#icon-menu-toggler"></use></svg>
+              <a class="site-list__item-link touch-link hover-link link" href="#">О КОМПАНИИ</a>
+              <ul class="main-nav__about">
+                <li>
+                  <a class="about-list__link link" href="#">МИССИЯ</a>
+                </li>
+                <li>
+                  <a class="about-list__link link" href="#">ФАСП В АССОЦИАЦИЯХ</a>
+                </li>
+                <li>
+                  <a class="about-list__link link" href="#">КЛИЕНТЫ И ПАРТНЁРЫ</a>
+                </li>
+                <li>
+                  <a class="about-list__link link" href="#">ВАКАНСИИ</a>
+                </li>
+                <li>
+                  <a class="about-list__link link" href="#">КОНТАКТНАЯ ИНФОРМАЦИЯ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__item-link link" href="#">НОВОСТИ</a>
+            </li>
+            <li class="site-list__item">
+              <svg width="11" height="13" class="main-nav__toggler"><use xlink:href="#icon-menu-toggler"></use></svg>
+              <a class="site-list__item-link touch-link hover-link link" href="#">ДОЛЖНИКАМ</a>
+              <ul class="main-nav__debt">
+                <li>
+                  <a class="debt-list__link link" href="#">МИССИЯ</a>
+                </li>
+                <li>
+                  <a class="debt-list__link link" href="#">ФАСП В АССОЦИАЦИЯХ</a>
+                </li>
+                <li>
+                  <a class="debt-list__link link" href="#">КЛИЕНТЫ И ПАРТНЁРЫ</a>
+                </li>
+                <li>
+                  <a class="debt-list__link link" href="#">ВАКАНСИИ</a>
+                </li>
+                <li>
+                  <a class="debt-list__link link" href="#">КОНТАКТНАЯ ИНФОРМАЦИЯ</a>
+                </li>
+              </ul>
+            </li>
+            <li class="site-list__item">
+              <a class="site-list__item-link link lang-switcher" href="indexeng.html">Eng</a>
+            </li>
+          </ul>
+          <div class="main-nav__socials">
+            <a href="#"><svg width="35" height="35"><use xlink:href="#icon-odnokl"></use></svg></a>
+            <a href="#"><svg width="35" height="35"><use xlink:href="#icon-vk"></use></svg></a>
+            <a><svg width="35" height="35"><use xlink:href="#icon-tw"></use></svg></a>
+            <a><svg width="35" height="35"><use xlink:href="#icon-fb"></use></svg></a>
+          </div>
+        </div>
+        </div>
+
+      </nav>
+  </header>
+
+    <section class="page-type">
+      <div class="main-block__wrapper">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb-fasp">
+            <li class="breadcrumb-fasp__item">
+              <a href="#">Главная</a>
+            </li>
+            <li class="breadcrumb-fasp__item--active" aria-current="page">
+                <a href="#">Услуги клиентам</a>
+            </li>
+          </ol>
+        </nav>    
+        <div class="page-type__wrapper">
+          <div class="page-type__content-wrapper">
+            <h1>О компании</h1>
+            <div class="major">АО «ФАСП» – первое независимое профессиональное коллекторское агентство в РОССИИ. </div>
+            <h4>  АО  «Финансовое Агентство по Сбору Платежей»:</h4>
+            <ul>
+              <li>Первое коллекторское агентство в России</li>
+              <li>Год создания – 2004</li>
+              <li>Общее количество должников в работе – свыше 5  миллионов человек</li>
+              <li>Общая сумма обработанной задолженности – 490 млрд. рублей</li>
+              <li>Общая сумма взысканной задолженности –  10,5 млрд. рублей</li>
+              <li>Состоит реестре профессиональных коллекторских  агентств ФССП</li>
+              <li>Учредитель и член национальной ассоциации  профессиональных коллекторских агентства НАПКА</li>
+              <li>Лицензия ФСТЭК России на деятельность по технической  защите конфиденциальной информации</li>
+              <li>Состоит в Реестре операторов персональных данных</li>
+              <li>Сотрудничает с более чем 100 компаниями</li>
+            </ul>
+            <h4>С нами - удобно и надёжно:</h4>
+            <ul>
+              <li>Оптимальная для конкретного вида задолженности стратегия  управления кредитным портфелем</li>
+              <li>Персональное сопровождение</li>
+              <li>Защита персональных данных (в том числе применение  сертифицированных криптографических систем)</li>
+            </ul>
+            <h4>Наши преимущества работают на Вас:</h4>
+            
+            <ul class="checked">
+              <li>процессы взыскания полностью автоматизированы и реализованы в виде:
+                <ul>
+                  <li>правил  взыскания, </li>
+                  <li>правил  массового обзвона,</li>
+                  <li>правил планирования  следующих действий, </li>
+                  <li>правил настройки шаблонов SMS и почтовых уведомлений;</li>
+                </ul>
+              </li>
+              <li>гибкая  операционная модель;</li>
+              <li>информационная система агентства позволяет:
+                <ul>
+                  <li>осуществлять работу с любыми типами задолженности,</li>
+                  <li>учитывать  детали и особенности по клиентам, кредитным продуктам и проводимым кредиторами  программам (дисконтирование, реструктуризация и т.д.);</li>
+                </ul>
+              </li>
+              <li>большой опыт взыскания;</li>
+              <li>большой опыт на рынке взыскания позволил создать:
+                <ul>
+                  <li>статистические модели,</li>
+                  <li>скрипты  переговоров и шаблоны сообщений, благодаря которым достигается высокая  эффективность и обеспечивается соблюдение требований законодательства;</li>
+                </ul>
+              </li>
+              <li>высокие производительность и эффективность;</li>
+              <li>используемая для компаний сквозная автоматизация:
+                <ul>
+                  <li>обеспечивает высокую производительность,</li>
+                  <li>минимизирует  сбои и простои в работе из-за «человеческого» фактора;</li>
+                </ul>
+              </li>
+              <li>высокий уровень качества;</li>
+              <li>используемая система обучения персонала позволяет:
+                <ul>
+                  <li>проводить  качественное обучение новых соискателей;</li>
+                  <li>на регулярной  основе обеспечивать развитие действующих сотрудников;</li>
+                  <li>активно  использовать механизмы контроля качества переговоров;</li>
+                  <li>исключать  ошибки в переговорных процессах; </li>
+                  <li>мотивировать  сотрудников на применение наиболее эффективных техник взыскания задолженности.</li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+          <div class="page-type__right-column">
+            <div class="page-type__menu-wrapper">
+              <ul class="page-type__menu">
+                <li class="page-type__menu-item--selected"><a href="#">Клиентам</a></li>
+                <li><a href="#">Миссия</a></li>
+                <li>ФАСП в Ассоциациях</li>
+                <li>Партнеры</li>
+              </ul> 
+            </div>     
+            <div class="page-type__manager-wrapper">
+              <div class="page-type__manager-title">
+                Узнайте подробнее<br/>о наших услугах
+              </div>
+              <div class="page_type__manager-border">
+                <div class="page_type__manager-pict">
+                  <img src="/img/manager.png">
+                </div>
+                <div class="page_type__manager-zag">
+                  Ваш персональный<br/>менеджер
+                </div>
+                <div class="page_type__manager-phone">
+                    +7 (495) 641-24-13
+                </div>
+                <div class="page_type__manager-email">
+                  <a href="mailto:sales@fasp.ru">sales@fasp.ru</a>
+                </div>
+              </div>
+            </div>    
+            <div class="page-type__info-wrapper">
+                <div class="page-type__info-hotline-title">Горячая линия:</div>
+                <div class="page-type__info-hotline-phone">8 (800) 775-17-30</div>
+                <div class="page-type__info-hotline-phone-comment">с 4:00 до 21:00 мск<br />(звонки бесплатны по России)</div>              
+                <a href="mailto:info@fasp.ru" class="page-type__info-hotline-email">info@fasp.ru</a>
+                <div class="page-type__info-hotline-viber">Viber/WhatsApp<br />+7(926)011-13-93</div>              
+            </div>
+          </div>
+        </div>    
+      </div>
+      <div class="partners">
+        <div class="partners__promo">
+            <div class="partners__title">
+                Нас рекомендуют
+              </div>
+        </div>          
+        <div class="partners__logo">          
+            <img src="/img/partners-alfabank.png" />
+            <img src="/img/partners-tinkoff.png" />
+            <img src="/img/partners-homecredit.png" />            
+            <img src="/img/partners-binbank.png" />            
+            <img src="/img/partners-vtb.png" />
+            <img src="/img/partners-otp.png" />
+            <img src="/img/partners-renesans.png" />
+            <img src="/img/partners-sovkombank.png" />            
+            <img src="/img/partner-unicredit.jpg" />
+            <img src="/img/partner-uralsib.jpg" />
+            <img src="/img/partners-psb.png" />            
+            <img src="/img/partners-vostochniy.png" />                                                                        
+        </div>                                  
+      </div>
+    </section>
+   
+
+
+  <footer class="footer">
+    <div class="main-block__wrapper">
+      <div class="footer__logo">
+        <img src="img/footer-logo-slogan.svg">
+      </div>
+      <div class="footer__wrapper-info">
+        <div class="footer__phone">+7 (495) 641-24-13</div>
+        <div class="footer__address">г. Москва, Дербеневская наб., д. 11, этаж 3, комн. А314</div>
+        <div class="footer__email"><a href="mailto:info@fasp.ru">info@fasp.ru</a></div>
+        <div class="footer__social">Мы в соцсетях: <span><img src="img/social-odnokl.png" width="21" height="22"></span><span><img src="img/social-vk.png" width="21" height="22"></span><span><img src="img/social-tw.png" width="21" height="22"></span><span><img src="img/social-fb.png" width="21" height="22"></span></div>
+        <div class="footer__copyright">&#xA9;&nbsp;All right reserved 2018</div>
+      </div>
+      <div class="footer__wraper-navigation">
+        <div class="footer__navigation-ul">
+          <span class="footer__navigation-title">Клиентам</span>
+          <ul>
+            <li><a href=""></a>Банкам</li>
+            <li><a href=""></a>Телекоммуникационным компаниям</li>
+            <li><a href=""></a>ЖКХ</li>
+            <li><a href=""></a>МФО</li>
+          </ul>
+        </div>
+        <div class="footer__navigation-ul">
+          <span class="footer__navigation-title">Должникам</span>
+          <ul>
+            <li><a href=""></a>О взыскателях</li>
+            <li><a href=""></a>Если у Вас задоженность</li>
+            <li><a href=""></a>Оплатить задолженность</li>
+            <li><a href=""></a>Цессия ФАСП</li>
+          </ul>
+        </div>
+        <div class="footer__navigation-ul">
+          <a href="" class="footer__navigation-title">Компания</a>
+          <ul>
+            <li><a href="">Клиенты и партнеры</a></li>
+            <li><a href="">Вакансии</a></li>
+            <li><a href="">Контактная информация</a></li>
+            <li><a href="">Документы компании</a></li>
+          </ul>
+        </div>
+        <div class="footer__navigation-ul">
+            <a class="footer__navigation-title">Компания</a>
+            <ul>
+              <li><a href="">Клиенты и партнеры</a></li>
+              <li><a href="">Вакансии</a></li>
+              <li><a href="">Контактная информация</a></li>
+              <li><a href="">Документы компании</a></li>
+            </ul>
+          </div>
+      </div>
+    </div>
+  </footer>
+<!--   <div style="height: 400px; width: 500px;" class="contacts__map"></div> -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="js/picturefill.min.js" async defer></script>
+  <script src="js/script.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCHIFHg91wnChC8qGQtgjFXbhiu6fAV8K8&callback=initMap" async></script>
+</body>
+</html>

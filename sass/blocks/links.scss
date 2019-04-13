@@ -1,0 +1,11 @@
+.link {
+	color: #1a2a55;
+	&:hover {
+		color: #0f76bb;
+		text-decoration: none;
+	}
+}
+.site-list__item-link {
+	font-weight: bold;
+	text-transform: uppercase;
+}

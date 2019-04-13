@@ -1,0 +1,99 @@
+.page-contact-contacts {
+    margin-bottom:20px;
+}
+.page-contact__contacts-header {
+    font-size: 20px;
+    font-weight: bold;
+    color: $firm-dark-blue;
+    line-height: 1.2em;
+    margin-bottom: 9px;
+}
+.page-contact__items {
+    margin-bottom:50px;
+} 
+.page-contact__item {
+    display:flex;
+    margin-bottom:12px;
+    height: 76px;
+}
+.page-contact__item-second {
+    height: 45px;
+    & > a {
+        text-decoration: none;
+        color: $firm-grey;
+    }
+}
+.page-contact__ico {
+    min-width:37px;
+    max-width:37px;
+    height: 37px;
+    margin-top:10px;
+    margin-right: 5px;
+}
+.page-contact__ico-watsapp {
+    min-width:34px;
+    max-width: 34px;
+    height: 34px;
+    margin: 12px 8px 0 0;    
+}
+.page-contact__text {
+    margin-left:8px;
+    margin-top:7px;
+    display:inline-block;
+    vertical-align: middle;
+}
+.page-contact__text-phone {
+    margin: 6px 0 8px 0;    
+    color: $firm-dark-blue;
+    font-weight: bold;
+    font-size: 24px;
+}
+.page-contact__text-viber {
+    font-size: 16px;
+}
+.page-contact__text-phone-comment {
+    font-size: 15px;     
+}
+.page-contact__text-email > a {
+    text-decoration: underline;
+    color: $firm-dark-blue;
+    font-size: 20px;
+}
+.page-contact__contacts-block {
+    margin-bottom:20px;
+}
+.page-contact__contacts-block strong {
+    display:block;
+    margin-top:20px;
+}
+
+@media (min-width: $tablet-width) {
+    .page-contact-contacts {
+        border: 2px #e2dede solid;
+        border-radius: 3px;
+        padding: 47px 33px 24px;
+        margin-bottom:35px;
+    }
+    .page-contact__items {
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-bottom:35px; 
+    }
+    .page-contact__item {
+        width: 296px;
+    }
+    div.page-contact__item:nth-child(5) {
+        width: 100%;
+    }
+    
+@media (min-width: $desktop-width) {    
+    .page-contact__contacts-header {
+        margin-bottom: 30px;
+    }
+    .page-contact__item {
+        width: 310px;
+    }
+}
+
+}
